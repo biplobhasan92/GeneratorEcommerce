@@ -1,0 +1,14 @@
+CREATE TABLE userReg USERREG
+(
+    sl INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+    first_name VARCHAR(200) NOT NULL,
+    last_name VARCHAR(200) NOT NULL,
+    email VARCHAR(200),
+    username VARCHAR(200),
+    password VARCHAR(200),
+    CONSTRAINT primary_key PRIMARY KEY (sl)
+) ;
+
+
+
+
